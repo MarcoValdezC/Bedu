@@ -25,6 +25,8 @@ body {
   
   li {
     display: inline;
+    margin: 25px;
+    color:#025157
   }
   
   .header > * {
@@ -45,19 +47,35 @@ body {
   
   .navbar {
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
     font-weight: 500;
+    font-family: sans-serif;
+    height: 45px;
+
   }
   
   .actions {
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+    
   }
   .main{
     margin-top: 140px;
     text-align:center;
-    
+
   }
+
+.sigin{
+color:#67b54b;
+margin:10px;
+}
+.try{
+    background-color: #67b54b;
+    padding:12px 14px;
+    border:none;
+    border-radius:5px;
+    margin:10px;
+}
